@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      
+    
+      #second{
+       
+        
+        position: absolute;
+        top:20px ;
+        left: 380px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .high{
+        animation-name: hight;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+
+      }
+      @keyframes hight{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(2);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+        .true{
+        animation-name: true;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-timing-function: ease-in;
+
+      }
+           @keyframes true{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(4);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+         .false{
+        animation-name: false;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        background-color: rgb(129, 28, 87);
+      }
+           @keyframes false{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(5);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+         .kmw{
+        animation-name: kmw;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+
+      }
+           @keyframes kmw{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(2.5);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+         .time{
+        animation-name: time;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        
+
+      }
+      @keyframes time{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(3);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+      .port{
+        animation-name: port;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        background-color: rgb(37, 34, 34);
+        
+
+      }
+      @keyframes port{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(2.3);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+
+      .zort{
+        animation-name: zort;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        
+
+      }
+      @keyframes zort{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(5);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+
+      .dort{
+        animation-name: dort;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        
+
+      }
+      @keyframes dort{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(1);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(4);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(1);
+        }
+      
+      }
+
+
+      .fort{
+        animation-name: fort;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        background-color: rgb(49, 67, 235);
+
+      }
+      @keyframes fort{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(5);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+      .sort{
+        animation-name: sort;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        
+
+      }
+      @keyframes sort{
+        0%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+        
+        50%{
+           transform-origin: left;
+           transform: scaleX(3.5);
+        }
+
+        100%{
+          transform-origin: 0%;
+          transform: scaleX(0.5);
+        }
+      
+      }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      #outline{
+        animation-name: outline;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 9s;
+       
+        
+      }
+      @keyframes outline{
+        from{
+         
+        }
+        to{
+         transform: rotate(-360deg);
+         
+          
+        }
+      }
+
+      #inline{
+          animation-name: inline;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 8s;
+      }
+        @keyframes inline{
+        from{
+          
+        }
+        to{
+           transform: rotate(360deg);
+        }
+      }
+  
+        #yellow{
+          animation-name: yellow;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 5s;
+      }
+        @keyframes yellow{
+        from{
+          
+        }
+        to{
+           transform: rotate(-360deg);
+        }
+      }
+        #red{
+        animation-name: red;
+
+        animation-duration:3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 4s;
+      }
+        @keyframes red{
+        from{
+          
+        }
+        to{
+           transform: rotate(-360deg);
+        }
+      }
+
+        #boy{
+          animation-name: boy;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+      }
+        @keyframes boy{
+        from{
+          
+        }
+        to{
+           transform: rotate(360deg);
+        }
+      }
+ 
+        #fogy{
+          animation-name: fogy;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 6s;
+      }
+        @keyframes fogy{
+        from{
+          
+        }
+        to{
+           transform: rotate(360deg);
+        }
+      }
+
+        #white{
+          animation-name: white;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-delay: 7s;
+      }
+        @keyframes white{
+        from{
+          
+        }
+        to{
+           transform: rotate(-360deg);
+        }
+      } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </style>
+
+
+
+</head>
+<body>
+    <div id="outline"  style="border-radius: 50%; padding: 8px; width: 300px;height: 300px;background-color: black;border-top: 18px solid red ; border-bottom: 15px solid blue;border-left: 15px solid yellow; border-right: 15px solid green;">
+    <div id="inline" style="border-radius: 50%; padding: 8px; width: 250px;height: 250px;background-color: transparent;border-top: 18px solid rgb(31, 145, 107) ; border-bottom: 15px solid rgb(187, 255, 0);border-left: 15px solid rgb(255, 153, 0); border-right: 15px solid rgb(17, 134, 202);" >
+    <div id="white" style="border-radius: 50%; padding: 8px; width: 200px;height: 200px;background-color: transparent;border-top: 18px solid rgb(115, 171, 216) ; border-bottom: 15px solid rgb(15, 5, 107);border-left: 15px solid rgb(29, 197, 99); border-right: 15px solid rgb(243, 83, 83);">
+    <div id="fogy" style="border-radius: 50%; padding: 8px; width: 150px;height: 150px;background-color: transparent;border-top: 18px solid rgb(154, 91, 255) ; border-bottom: 15px solid rgb(16, 255, 255);border-left: 15px solid rgb(116, 116, 116); border-right: 15px solid rgb(74, 167, 74);">
+    <div id="yellow" style="border-radius: 50%; padding: 8px; width: 100px;height: 100px;background-color: transparent;border-top: 18px solid rgb(231, 98, 20) ; border-bottom: 15px solid rgb(207, 95, 252);border-left: 15px solid rgb(255, 255, 255); border-right: 15px solid rgb(55, 72, 223);" >                
+    <div id="red" style="border-radius: 50%; padding: 8px; width: 50px;height: 50px;background-color: transparent;border-top: 18px solid rgb(238, 255, 0) ; border-bottom: 15px solid rgb(138, 19, 48);border-left: 15px solid rgb(90, 57, 57); border-right: 15px solid rgb(111, 26, 190);">
+    <div id="boy"  style="border-radius: 50%; padding: px; width: 2px;height: 2px;background-color: transparent;border-top: 25px solid rgb(165, 29, 165) ; border-bottom: 25px solid rgb(15, 185, 58);border-left: 25px solid rgb(233, 23, 23); border-right: 25px solid rgb(185, 241, 53);">
+    
+    
+    </div> 
+</div>
+</div>
+    
+</div>  
+</div>  
+</div>
+    </div>
+
+
+  <div  id="second">
+    <div class="high" style="width: 250px;height: 20px;background-color: rgb(92, 14, 128);border-radius: 20px; margin-top: 10px;" ></div>
+    <div class="true" style="width: 250px;height: 20px;background-color: rgb(236, 41, 15);border-radius: 20px;margin-top: 10px;"></div>
+    <div class="false"style="width: 240px;height: 20px;border-radius: 20px;margin-top: 10px;"></div>
+    <div class="kmw"  style="width: 230px;height: 20px;background-color: rgb(223, 0, 0);border-radius: 20px;margin-top: 10px;"></div>
+    <div class="time" style="width: 250px;height: 20px;background-color: rgb(245, 29, 180);border-radius: 20px;margin-top: 10px;"></div>
+    <div  class="port"style="width: 250px;height: 20px;border-radius: 20px;margin-top: 10px;"></div>
+    <div class="sort" style="width: 250px;height: 20px;background-color: rgb(71, 241, 19);border-radius: 20px;margin-top: 10px;"></div>
+    <div  class="fort"style="width: 250px;height: 20px;border-radius: 20px;margin-top: 10px;"></div>
+    <div class="dort" style="width: 250px;height: 20px;background-color: rgb(255, 251, 4);border-radius: 20px;margin-top: 10px;"></div>
+    <div class="zort" style="width: 250px;height: 20px;background-color: rgb(0, 204, 255);border-radius: 20px;margin-top: 10px;"></div>
+    
+  </div>
+ <br> <br>
+ <br>
+  <audio autoplay hidden > 
+    <source src="Walk-Off-the-Earth-I ll-Be-There-128.mp3" type="audio/mp3" >
+    you have problem
+  </audio>
+
+
+
+</body>
+</html>
